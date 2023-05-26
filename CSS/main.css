@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.teh-cont{
+	height: 130px;
+	widows: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.logo{
+	width: 110px;
+	height: 110px;
+}
+.logo img{
+	widows: 100%;
+	height: auto;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.buttons{
+	margin-right: 10px;
+}
+.buttons ul{
+	height: 100%;
+	width: 1000px;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
+}
+.buttons li{
+	font-size: 20px;
+	color: grey;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+.buttons li:hover{
+	background: linear-gradient()
+	border-radius: 10px;
+	transition: 0.2s;
+	color: white;
+	transform: scale(1.07);
+}
+
+.gal1 button:hover{
+	background: linear-gradient()
+	border-radius: 10px;
+	transition: 0.2s;
+	transform: scale(1.07);
+}
+
+.glav{
+	width: 100%;
+	height: 700px;
+	background: url('../img/fon.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.text{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding: 40px 40px;
+	border: 5px solid white;
+	width: 50%;
+	height: 300px;
+	align-content: center;
+	margin: auto;
+}
+
+.text p:nth-child(1){
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.text p:nth-child(2){
+	font-size: 60px;
+	padding: 40px;
+}
+
+.text p:nth-child(3){
+	font-size: 20px;
+}
+
+.inf{
+	background-color: #d9dfd1;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inf p:nth-child(1){
+	color: white;
+	font-size: 200px;
+	padding: 0 150px;
+}
+
+.inf p:nth-child(2){
+	font-size: 35px;
+	padding: 0 130px;
+}
+
+.inf p:nth-child(3){
+	font-size: 20px;
+	padding: 0px 130px;
+}
+
+.inf2 .inf1 {
+	padding: 30px 40px;
+}
+
+.gal1{
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+
+.img1{
+	width: 50%;
+	height: 100%;
+	background: url('../img/img1.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.img2{
+	width: 50%;
+	height: 100%;
+	background: url('../img/img2.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.img2 p{
+	text-align: center;
+	padding-top: 400px;
+	font-size: 35px;
+}
+
+.img2 button{
+	margin-left: 40%;
+	font-size: 15px;
+	padding: 10px;
+	background: transparent;
+	border: 1px solid black;
+}
+
+.gallery{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1)
+}
+
+.img:hover{
+	transform: scale(1.04);
+}
+
+.gallery div:nth-child(1){
+	background: url('../img/1.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery div:nth-child(2){
+	background: url('../img/2.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery div:nth-child(3){
+	background: url('../img/3.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery div:nth-child(4){
+	background: url('../img/4.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery div:nth-child(5){
+	background: url('../img/5.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery div:nth-child(6){
+	background: url('../img/6.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.inf3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 400px;
+	background-color: #d9dfd1;
+}
+
+.child p:nth-child(1){
+	font-size: 35px;
+}
+
+.child{
+	width: 40%;
+	margin-top: -115px;
+	padding: 30px 40px;
+}
+
+.child2{
+	width: 40%;
+	padding: 30px 40px;
+} 
+
+.inf3 p{
+	font-size: 20px;
+}
+
+.img3{
+	width: 50%;
+	height: 100%;
+	background: url('../img/img3.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.img4{
+	width: 50%;
+	height: 100%;
+	background: url('../img/img4.png');
+	background-position: center;
+	background-size: cover;
+}
+
+#hid{
+	width: 100%;
+	height: 500px;
+	display: none;
+}
+
+.footer{
+	width: 100%;
+	height: 350px;
+	background: url('../img/footer.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.footer p{
+	font-size: 35px;
+	color: white;
+	margin-left: 70%;
+	padding-top: 150px;
+}
+input{
+	font-size: 15px;
+	background: transparent;
+	border: 2px solid white;
+	margin-left: 70%;
+	padding: 10px;
+}
+button{
+	font-size: 15px;
+	background-color: white;
+	border: none;
+	padding: 10px 20px;
+}
+
+button:hover{
+	transition: 0.2s;
+	transform: scale(1.07);
+}
